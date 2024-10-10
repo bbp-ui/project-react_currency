@@ -1,0 +1,52 @@
+/* Main Container Styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 2rem;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height for vertical centering */
+  background: rgba(255, 255, 255, 0.8); /* Add a subtle background to contrast with the image */
+  border-radius: 15px; /* Round corners for a softer look */
+}
+
+/* Card Styles */
+.card {
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.9); /* Slightly less transparent for better readability */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  width: 100%; /* Ensure it takes full width of its parent */
+  max-width: 400px; /* Set a maximum width for the card */
+  text-align: left; /* Align text to the left */
+}
+
+/* Input Box Styles */
+input {
+  border-radius: 5px; /* Round input corners */
+  padding: 0.5em;
+  border: 1px solid #ddd; /* Light border */
+  transition: border-color 0.3s; /* Smooth transition on focus */
+  width: calc(100% - 1em); /* Full width minus padding */
+}
+
+input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+button {
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.02); /* Slight scale on hover */
+}
+  
+/* Read the Docs Styles */
+.read-the-docs {
+  color: #888;
+}
